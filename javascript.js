@@ -15,3 +15,4 @@ const pi = 3.14;
 pi = 10;
 
 console.log(pi); //output will be 3.14
+
