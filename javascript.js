@@ -1,18 +1,11 @@
-let firstName = "John";
-let lastName = "Doe";
+function createParagraph() {
+    const para = document.createElement("p");
+    para.textContent = "You clicked the button!";
+    document.body.appendChild(para);
+}
 
-console.log(firstName);
-console.log(lastName);
+const buttons = document.querySelectorAll("button");
 
-let age = 11
-console.log(age);
-
-age = 54;
-
-console.log(age);
-
-const pi = 3.14;
-pi = 10;
-
-console.log(pi); //output will be 3.14
-
+for (const button of buttons) {
+    button.addEventListener("click", createParagraph);
+}
