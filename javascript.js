@@ -11,7 +11,12 @@ for (const button of buttons) {
 }
 
 let admin;
-let name = "John"
+let name = "John";
 
-admin = name
-alert(admin)
+admin = name;
+alert(admin);
+
+let homePlanet = "Earth"; //should jhave used ourPlanetName or something similar
+
+let currentUser = "John"; //should have gone with currentUserName, it's okay to have longer variable names due to autocomplete
+
